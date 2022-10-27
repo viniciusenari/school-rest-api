@@ -1,2 +1,2 @@
-# django rest api
+# School Rest API
  
