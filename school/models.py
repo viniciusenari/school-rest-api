@@ -6,6 +6,7 @@ class Student(models.Model):
     email = models.EmailField()
     phone = models.CharField(max_length=15)
     birthday = models.DateField()
+    ssn = models.CharField(max_length=11, default="")
 
     def __str__(self):
         return self.name
